@@ -1,0 +1,1 @@
+select get_total_payments_for_film(879) as total_payments;
