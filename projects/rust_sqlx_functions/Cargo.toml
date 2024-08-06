@@ -1,0 +1,9 @@
+[package]
+name = "rust_sqlx_functions"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+sqlx = { version = "0.7", features = ["postgres", "runtime-async-std-native-tls", "runtime-tokio", "runtime-tokio-native-tls"] }
+tokio = { version = "1.38.0", features = ["full"] }

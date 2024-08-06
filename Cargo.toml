@@ -1,0 +1,5 @@
+[workspace]
+
+resolver = "2"
+
+members = [ "projects/rust_sqlx_functions","projects/rust_sqlx_stored_proc"]
