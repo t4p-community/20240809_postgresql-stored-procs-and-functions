@@ -15,7 +15,8 @@ BEGIN
     SELECT category_id 
     INTO v_category_id 
     FROM category 
-    WHERE name = p_name;
+    WHERE name = p_name
+    LIMIT 1;
 
     -- Check if the category was found
     IF v_category_id IS NULL THEN

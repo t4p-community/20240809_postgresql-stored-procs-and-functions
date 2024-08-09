@@ -13,9 +13,9 @@ impl DVDRentalDb {
             .connect(
                 format!(
                     "postgres://{}:{}@{}:{}/{}",
-                    "postgres",
-                    "zT2BeG0swpr3KpFmlyNO",
-                    "database-demo.c3e042am240s.us-east-2.rds.amazonaws.com",
+                    "db_username",
+                    "db_password",
+                    "db_host",
                     5432,
                     "dvdrental"
                 )

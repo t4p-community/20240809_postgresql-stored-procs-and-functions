@@ -6,8 +6,8 @@ mod dvdrental_db;
 async fn main() -> Result<()> {
     let db = dvdrental_db::DVDRentalDb::new().await?;
 
-    // let total_payments = db.total_payments_for_film(879).await?;
-    // println!("Total payments for film : {}", total_payments);
+    let total_payments = db.total_payments_for_film(879).await?;
+    println!("Total payments for film : {}", total_payments);
 
     Ok(())
 }

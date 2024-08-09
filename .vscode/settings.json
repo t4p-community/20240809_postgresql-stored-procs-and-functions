@@ -1,20 +1,4 @@
 {
-    "sqltools.connections": [
-        {
-            "pgOptions": {
-                "ssl": {
-                    "rejectUnauthorized": false
-                }
-            },
-            "previewLimit": 50,
-            "server": "database-demo.c3e042am240s.us-east-2.rds.amazonaws.com",
-            "port": 5432,
-            "driver": "PostgreSQL",
-            "name": "dvdrental",
-            "database": "dvdrental",
-            "username": "postgres"
-        }
-    ],
     "[sql]": {
         "editor.defaultFormatter": "mtxr.sqltools",
         "editor.formatOnSave": false

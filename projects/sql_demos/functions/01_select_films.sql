@@ -3,5 +3,15 @@
 -- The 'film' table is expected to contain information about films,
 -- such as film_id, title, description, release_year, language_id, etc.
 
-SELECT * 
-FROM film;
+SELECT f.film_id,
+        f.title,
+        f.description,
+        f.release_year,
+        f.language_id,
+        f.rental_duration,
+        f.rental_rate,
+        f.length,
+        f.replacement_cost,
+        f.rating,
+        f.last_update 
+FROM film f;
